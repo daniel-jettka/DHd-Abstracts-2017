@@ -89,16 +89,16 @@
 <text>
 <body>
 <p>Die Aufbereitung und Erkennung von handschriftlichen Dokumenten ist sowohl für Menschen als auch für Computeralgorithmen eine technische Herausforderung. Die Bearbeitung von handschriftlichem Material wird bislang von spezialisierten Experten durchgeführt, um technisch und qualitativ hochstehende Resultate aus historischen Dokumenten zu erhalten. Zur Erstellung hochwertiger Editionen ist dafür hilfswissenschaftliches Wissen (Paläographie, Editorik), historisches Hintergrundwissen und technisches Know-how gefragt.</p>
-<p>Im Rahmen des Projekts READ (Recognition and Enrichment of Archival Data) werden unterschiedliche Aufgaben der Automatisierung (weiter-)entwickelt, um qualitativ gute Ergebnisse mit optimalem Ressourceneinsatz zu erhalten. Ein speziell dafür entwickeltes Tool ist die Software Transkribus, die die Arbeit von Experten und maschineller Erkennleistung verkoppelt. Die Software ist frei verfügbar unter www.transkribus.eu. Im Workshop wird Transkribus vorgestellt und kann durch die Teilnehmenden mit eigenen oder zur Verfügung gestellten Dokumenten getestet werden.</p>
-<p>Transkribus unterstützt alle Prozesse vom Import der Bilder über die Identifikation der Textblöcke und Zeilen, die zu einer detaillierten Verlinkung zwischen Text und Bild führt sowie die Transkription und Annotation der Handschrift bis zum Export der gewonnen Daten in standardisierten Formaten.</p>
-<p rend="DH-Heading3">Workflow in Transkribus</p>
+<p>Im Rahmen des Projekts READ (Recognition and Enrichment of Archival Data) werden unterschiedliche Aufgaben der Automatisierung (weiter-)entwickelt, um qualitativ gute Ergebnisse mit optimalem Ressourceneinsatz zu erhalten. Ein speziell dafür entwickeltes Tool ist die Software <rs key="Transkribus" ana="#URL">Transkribus</rs>, die die Arbeit von Experten und maschineller Erkennleistung verkoppelt. Die Software ist frei verfügbar unter www.transkribus.eu. Im Workshop wird <rs key="Transkribus" ana="">Transkribus</rs> vorgestellt und kann durch die Teilnehmenden mit eigenen oder zur Verfügung gestellten Dokumenten getestet werden.</p>
+<p><rs key="Transkribus" ana="">Transkribus</rs> unterstützt alle Prozesse vom Import der Bilder über die Identifikation der Textblöcke und Zeilen, die zu einer detaillierten Verlinkung zwischen Text und Bild führt sowie die Transkription und Annotation der Handschrift bis zum Export der gewonnen Daten in standardisierten Formaten.</p>
+<p rend="DH-Heading3">Workflow in <rs key="Transkribus" ana="">Transkribus</rs></p>
 <p>Um Texte zu transkribieren oder zu edieren, müssen digitale Bilder hochgeladen und danach mit Layouterkennungswerkzeugen bearbeitet werden. Die Analyse des Layouts kann automatisiert geschehen, wobei die manuelle Kontrolle und falls nötig die Nachbearbeitung im Moment noch sinnvoll ist.</p>
-<p>Texte aus in Transkribus aufbereiteten Dokumenten können entweder mit bereits bestehenden HTR-Modellen (Handwritten Text Recognition) erkannt oder händisch erstellt werden und danach zum Training neuer Modelle genutzt werden. Insbesondere für die Bearbeitung grosser Dokumentenkorpora, die in ähnlichen Handschriften verfasst wurden, lassen sich bereits heute Effizienzgewinne und Vereinfachungen erzielen.</p>
+<p>Texte aus in <rs key="Transkribus" ana="">Transkribus</rs> aufbereiteten Dokumenten können entweder mit bereits bestehenden HTR-Modellen (Handwritten Text Recognition) erkannt oder händisch erstellt werden und danach zum Training neuer Modelle genutzt werden. Insbesondere für die Bearbeitung grosser Dokumentenkorpora, die in ähnlichen Handschriften verfasst wurden, lassen sich bereits heute Effizienzgewinne und Vereinfachungen erzielen.</p>
 <p>Aufbauend auf den Transkriptionen ist es möglich eine Vielzahl von Auszeichnungen und Annotationen innerhalb des Textes, aber auch darüber hinaus für Einzeldokumente und ganze Dokumentenbestände anzulegen. Neben der Anreicherung der Dokumente mit der Identifikation von Personen, Orten und Sachwörtern ist somit auch die Möglichkeit der Herstellung von Bestandsbeschreibungen und der Hinterlegung von Transkriptions- und Editionsvorschriften gegeben.</p>
 <p rend="DH-Heading3">Ausgabeformate</p>
 <p>Für den Export stehen unterschiedliche Formate und Ausgabeformen zur Verfügung. So ist es möglich XML-Dateien zu exportieren, die den Vorgaben der TEI entsprechen. Ausgehend davon können komplexe digitale Editionen erstellt werden, die jedoch im Unterschied zu herkömmlichen Editionen eine enge Verzahnung mit den verwendeten Bilddateien aufweisen. Dadurch werden Editionen ermöglicht, die den transkribierten Text in der Zusammenschau mit der faksimilierten Vorlage sichtbar machen (analog zu state-of-the-art Editionen, wie beispielsweise die Edition der Briefe Alfred Eschers: https://www.briefedition.alfred-escher.ch/). Daneben sind auch Ausgaben als Druckdaten (PDF) oder zur Weiterbearbeitung für Textverarbeitungsprogramme (DOCX) implementiert. Schliesslich ist auch ein Export im PAGE-Format (zur Anzeige in Viewern für OCR gelesene Dokumente, Pletschacher, 2010) sowie als METS (Metadata Encoding and Transmission) möglich.</p>
 <p>Die Speicherung der Dokumente erfolgt in der Cloud (gehostet auf Servern der Universität Innsbruck). Die importierten Daten bleiben auch während der Bearbeitung unverändert im Dateisystem liegen und werden ergänzt durch METS und PAGE XML, letztere in eigenem Unterordner. Alle bearbeiteten Dokumente und Daten bleiben somit in den unterschiedlichen Bearbeitungsstadien nicht nur lokal verfügbar, sondern können für Projektmitarbeitende geteilt werden. Dank elaboriertem 
-                <hi rend="italic">user-management</hi> ist die Zuteilung von Rollen möglich. Die Erkennprozesse werden serverseitig durchgeführt, sodass die Ressourcen auf den lokalen Rechnern nicht strapaziert werden. Transkribus ist mit JAVA und SWT programmiert und kann daher plattformunabhängig (Windows, Mac, Linux) genutzt werden.
+                <hi rend="italic">user-management</hi> ist die Zuteilung von Rollen möglich. Die Erkennprozesse werden serverseitig durchgeführt, sodass die Ressourcen auf den lokalen Rechnern nicht strapaziert werden. <rs key="Transkribus" ana="">Transkribus</rs> ist mit JAVA und SWT programmiert und kann daher plattformunabhängig (Windows, Mac, Linux) genutzt werden.
             </p>
 <p rend="DH-Heading3">Zielpublikum</p>
 <p>Die Plattform ist für unterschiedliche Gruppen konzipiert. Einerseits für GeisteswissenschaftlerInnen, die selbst Transkriptionen und Editionen historischer Dokumente erstellen möchten. Andererseits richtet sich die Plattform an Archive, Bibliotheken und andere Erinnerungsinstitutionen, die handschriftliche Dokumente in ihren Sammlungen aufbewahren und ein Interesse an der Aufbereitung des Materials haben. Angesprochen werden sollen auch Studierende der Geistes-, Archiv- und Bibliothekswissenschaften mit einem Interesse an der Transkription historischer Handschriften.</p>
@@ -109,10 +109,10 @@
 <p>Die zwei zentralen Automatisierungsprozesse basieren auf Algorithmen, die in laufenden Forschungsprojekten entwickelt und verbessert werden. Die 
                 <hi rend="italic">document image analysis</hi> (DIA) versucht Textblöcke zu identifizieren und von Dreck, Scanfehlern und anderen Störsignalen zu unterscheiden, wobei zwischen handschriftlichen und gedruckten Textblöcken differenziert wird (Zagoris 2012; Stamatopoulos 2015).
             </p>
-<p>In Transkribus werden auf der Layouterkennung aufbauend zwei 
+<p>In <rs key="Transkribus" ana="">Transkribus</rs> werden auf der Layouterkennung aufbauend zwei 
                 <hi rend="italic">handwritten text recognition</hi>-Engines (HTR) angeboten, die auf unterschiedlichen technischen Grundlagen basieren: Erstens kann eine nach dem Hidden Markov Model (HMM) operierende HTR der Technischen Universität Valencia angewählt werden (Toselli 2015, Puigcerver 2015). Zweitens kann ein Model basierend auf rekurrierenden neuronalen Netzwerken der Universität Rostock genutzt werden (Leifert 2016).
             </p>
-<p>Transkribus und das gesamte Forschungsnetzwerk will die verfügbaren technischen Möglichkeiten den Endnutzern nach möglichst gängigen Workflows aufbereiten, so dass dem schnellen Praxiseinsatz keine Hindernisse im Weg stehen. Im Gegenzug wird die Nutzung im grossen Umfang erhofft, die den Subprojekten wichtige Trainingsdaten und Aufschlüsse bezüglich der Nutzung und den Problemen mit den Algorithmen sowie dem Graphical User Interface geben. Tests zum Einsatz der Technik in Archiven und Bibliotheken und unter unterschiedlichen Bedingungen werden momentan getestet und evaluiert.</p>
+<p><rs key="Transkribus" ana="">Transkribus</rs> und das gesamte Forschungsnetzwerk will die verfügbaren technischen Möglichkeiten den Endnutzern nach möglichst gängigen Workflows aufbereiten, so dass dem schnellen Praxiseinsatz keine Hindernisse im Weg stehen. Im Gegenzug wird die Nutzung im grossen Umfang erhofft, die den Subprojekten wichtige Trainingsdaten und Aufschlüsse bezüglich der Nutzung und den Problemen mit den Algorithmen sowie dem Graphical User Interface geben. Tests zum Einsatz der Technik in Archiven und Bibliotheken und unter unterschiedlichen Bedingungen werden momentan getestet und evaluiert.</p>
 <p>Als Businessmodel ist eine Überführung des Forschungsprojekts in eine Kooperative geplant, die den Stakeholdern möglichst niederschwellige und kostengünstige Angebote unterbreiten soll (Mühlberger, Preprint). Somit vereint das Projekt READ die unterschiedlichsten Ansprüche an Automatisierungs- und Erkennungsroutinen und orientiert sich dabei an gängigen Arbeitsformen im Kontext mit handschriftlichen Dokumenten (siehe auch die Projekthomepage: http://read.transkribus.eu).</p>
 <p rend="DH-Heading3">Aus- und Seitenblicke im Workshop</p>
 <p>Zwei unterschiedliche Forschungsaspekte aus READ werden im Rahmen des Workshops als Inputs demonstriert:</p>
@@ -122,30 +122,30 @@
             </p>
 <p rend="DH-Heading2">Programm/Ablauf des Workshops</p>
 <p>
-<hi rend="italic">Einführung in Transkribus</hi> (
+<hi rend="italic">Einführung in <rs key="Transkribus" ana="">Transkribus</rs></hi> (
                 <hi rend="fett_(Zeichen)">Tobias Hodel,</hi> Zürich): 30‘
                 <lb/>Aufbau und Funktionieren des Programms, Demonstration des Gebrauchs anhand von Beispielen. Aufzeigen der Möglichkeiten zum Einsatz der Automatisierungen.
             </p>
 <p>
 <hi rend="italic">Strukturierte Daten in Kirchenbüchern</hi> (
                 <hi rend="fett_(Zeichen)">Eva-Maria Lang, </hi>Passau): 30‘
-                <lb/>Demonstration vom Umgang mit Kirchenbüchern, einer spezifischen und stark standardisierten Dokumentform, die mit Transkribus aufbereitet werden. Eine Suche in den Dokumenten wird über eigene Routinen und Abfragemöglichkeiten gewährleistet.
+                <lb/>Demonstration vom Umgang mit Kirchenbüchern, einer spezifischen und stark standardisierten Dokumentform, die mit <rs key="Transkribus" ana="">Transkribus</rs> aufbereitet werden. Eine Suche in den Dokumenten wird über eigene Routinen und Abfragemöglichkeiten gewährleistet.
             </p>
 <p>
-<hi rend="italic">Selbstständiges Arbeiten der Teilnehmenden mit Transkribus:</hi> 90‘
-                <lb/>Die Möglichkeiten und Grenzen von Transkribus sollen von den Teilnehmenden (wenn möglich mit eigenen Dokumenten) selbst ausgetestet werden. 
+<hi rend="italic">Selbstständiges Arbeiten der Teilnehmenden mit <rs key="Transkribus" ana="">Transkribus</rs>:</hi> 90‘
+                <lb/>Die Möglichkeiten und Grenzen von <rs key="Transkribus" ana="">Transkribus</rs> sollen von den Teilnehmenden (wenn möglich mit eigenen Dokumenten) selbst ausgetestet werden. 
             </p>
 <p>
 <hi rend="italic">Schreiberidentifizierung</hi> (
                 <hi rend="fett_(Zeichen)">Stefan Fiel,</hi> Wien): 30‘
-                <lb/>Ein über Transkribus hinausgehender Teil des Projekts beschäftigt sich mit 
+                <lb/>Ein über <rs key="Transkribus" ana="">Transkribus</rs> hinausgehender Teil des Projekts beschäftigt sich mit 
                 <hi rend="italic">computer vision</hi>. Ziel ist die Identifizierung unterschiedlicher Personen als Schreibende. Stefan Fiel berichtet über den Stand der Forschung und wie Teilnehmende die Hände wichtiger Schreibender zur Verfügung stellen können.
             </p>
 <p>
 <hi rend="italic">Diskussion über Vor- und Nachteile der Software</hi>: 45‘
                 <lb/>Inklusive Evaluation des Tools und der Veranstaltung. Feedbacks werden eingeholt, zur Verbesserung der Software (usability, Umfang und Leistung der Automatisierungen etc.).
             </p>
-<p>Das Projekt READ und somit die Weiterentwicklung von Transkribus werden finanziert durch einen Grant der Europäischen Union im Rahmen des Horizon 2020 Forschungs- und Innovationsprogramms (grant agreement No 674943).</p>
+<p>Das Projekt READ und somit die Weiterentwicklung von <rs key="Transkribus" ana="">Transkribus</rs> werden finanziert durch einen Grant der Europäischen Union im Rahmen des Horizon 2020 Forschungs- und Innovationsprogramms (grant agreement No 674943).</p>
 <p rend="DH-Heading2">Kontaktdaten aller Beitragenden (inkl. Forschungsinteressen)</p>
 <p>Tobias Hodel, Staatsarchiv des Kantons Zürich, Winterthurerstrasse 170, CH-8057 Zürich, Schweiz; 
                 <ref target="mailto:tobias.hodel@ji.zh.ch">tobias.hodel@ji.zh.ch</ref> (Digital Humanities; Handwritten Textrecognition; eArchiving; Information Retrieval).
@@ -161,7 +161,7 @@
 <p>30-40 Personen (auch abhängig von der Raumgrösse)</p>
 <p>Benötigte technische Ausstattung:
                 <lb/>Allgemein: Beamer, evtl. Whiteboard.
-                <lb/>Teilnehmende: Eigener Rechner (wenn möglich Installation von Transkribus; Hilfe zur Installation von Transkribus wird 30 Minuten vor der Veranstaltung angeboten)
+                <lb/>Teilnehmende: Eigener Rechner (wenn möglich Installation von <rs key="Transkribus" ana="">Transkribus</rs>; Hilfe zur Installation von <rs key="Transkribus" ana="">Transkribus</rs> wird 30 Minuten vor der Veranstaltung angeboten)
             </p>
 <p>Anmeldungen und Rückfragen bitte an tobias.hodel@ji.zh.ch</p>
 </body>
