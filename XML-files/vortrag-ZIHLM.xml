@@ -132,7 +132,7 @@
 <p>Die digitale Präsentation soll im Wesentlichen im Rahmen der Edition von Gotthelfs Korrespondenzen entwickelt werden (Zihlmann-Märki 2017). Dabei sind drei Ansichten für unterschiedliche Nutzungsszenarien vorgesehen. Neben der historisch-kritischen Ansicht, welche die 
                     <hi rend="italic">Tustep</hi>-Routine einbindet, und einer diplomatischen Ansicht stellt eine Inhaltsansicht den finalen Text samt ausgezeichneten Entitäten und Stellenkommentaren bereit. Die Codierung wird die Vorschläge der 
                     <hi rend="italic">TEI Special Interest Group Correspondence </hi>berücksichtigen, und die Verwendung standardisierter Daten ist Voraussetzung für eine Integration in externe Suchumgebungen wie 
-                    <hi rend="italic">CorrespSearch</hi>.
+                    <hi rend="italic"><rs key="CorrespSearch" ana="#URL">CorrespSearch</rs></hi>.
                     <ref n="3" target="vortrag-ZIHLMftn3" type="note">3</ref> Ebenso können Informationen aus anderen digitalen Ressourcen dank dem Einsatz von Normdateien und dem BEACON-Format in der digitalen Umgebung angezeigt werden (Stadler 2012; Stadler 2014). 
                 </p>
 </div>
