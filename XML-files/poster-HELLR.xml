@@ -138,14 +138,14 @@
             </p>
 <p>
 <hi rend="smallcaps">Uima</hi> und die anderen bisher genannten Frameworks sind primär für den Einsatz auf lokaler Rechner-Infrastruktur gedacht und somit nur bedingt mit Systemen wie 
-                <hi rend="smallcaps">WebLicht</hi>
+                <hi rend="smallcaps"><rs key="WebLicht" ana="#URL">WebLicht</rs></hi>
 <hi rend="color(#000000)smallcaps">
 <ref target="poster-HELLRftn6" type="note">7</ref>
 </hi> (Hinrichs u.a., 2010) vergleichbar, die als Webservice verschiedene dezentral verteilte Komponenten zusammenführen. Dadurch wird zwar der Einstieg in die Nutzung sprachtechnologischer Systeme erleichtert, jedoch sind derartige Systeme nicht für die Verarbeitung großer Datenmengen geeignet und es entsteht eine eher intransparente Abhängigkeit von fremder Infrastruktur. 
                 <hi rend="smallcaps">Uima</hi> ist somit kein Konkurrent für 
-                <hi rend="smallcaps">WebLicht</hi>, sondern ermöglicht es vielmehr, Komponenten zu entwickeln, die bei Bedarf auch (durch in 
+                <hi rend="smallcaps"><rs key="WebLicht">WebLicht</rs></hi>, sondern ermöglicht es vielmehr, Komponenten zu entwickeln, die bei Bedarf auch (durch in 
                 <hi rend="smallcaps">DKPro</hi> enthaltene Konverter) in 
-                <hi rend="smallcaps">WebLicht</hi> eingebunden werden können.
+                <hi rend="smallcaps"><rs key="WebLicht">WebLicht</rs></hi> eingebunden werden können.
             </p>
 <p>Im Kern ist 
                 <hi rend="smallcaps">Uima</hi> für die sequentielle Anreicherung mit Metadaten ausgelegt. Die möglichen Annotationen werden frei über ein objektorientiertes Typensystem definiert (siehe etwa Hahn u.a., 2007). In 
@@ -255,12 +255,12 @@
                         in: 
                         <hi rend="italic">LREC 2016 – Proceedings of the 10th International Conference on Language Resources and Evaluation</hi> 2502–2509.
                     </bibl>
-<bibl>
+<bibl><rs key="WebLicht" ana="#Bib.Ref #Agent">
 <hi rend="bold">Hinrichs, Erhard W. / Hinrichs, Marie / Zastrow, Thomas</hi> (2010):
                         „WebLicht: Web-based LRT services for German“,
                         in: 
                         <hi rend="italic">Proceedings of ACL-2010: System Demonstrations</hi> 25–29.
-                    </bibl>
+                    </rs></bibl>
 <bibl>
 <hi rend="bold">Jannidis, Fotis</hi> (2014):
                         „Der Autor ganz nah: Autorstil in Stilistik und Stilometrie“,
