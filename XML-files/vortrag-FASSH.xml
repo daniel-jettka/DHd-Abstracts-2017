@@ -146,21 +146,21 @@
                         <hi rend="italic">TreeTagger. A part-of-speech tagger for many languages</hi>. 
                         <ref target="http://www.cis.unimuenchen.de/~schmid/tools/TreeTagger/">http://www.cis.unimuenchen.de/~schmid/tools/TreeTagger/</ref> [letzter Zugriff 20. August 2016].
                     </bibl>
-<bibl>
+<bibl><rs key="Transkribus" ana="#Bib.Ref #URL">
 <hi rend="bold">Transkribus Wiki</hi> (o.J.): 
                         <hi rend="italic">Transkribus-Benutzeranleitung</hi>. 
                         <ref target="https://transkribus.eu/wikiDe/index.php/Hauptseite">https://transkribus.eu/wikiDe/index.php/Hauptseite</ref> [letzter Zugriff 20. August 2016].
-                    </bibl>
+                    </rs></bibl>
 <bibl>
 <hi rend="bold">UB Frankfurt =Universitätsbibliothek Frankfurt am Main</hi> (2013-2016): 
                         <hi rend="italic">Nachlass Johann Christian Senckenberg</hi>. 
                         <ref target="http://sammlungen.ub.uni-frankfurt.de/senckenberg/nav/index/all">http://sammlungen.ub.uni-frankfurt.de/senckenberg/nav/index/all</ref> [letzter Zugriff 20. August 2016].
                     </bibl>
-<bibl>
+<bibl><rs key="Transkribus" ana="#Bib.Soft #URL">
 <hi rend="bold">Universität Innsbruck</hi> (o.J.): 
                         <hi rend="italic">Transkribus</hi>. 
                         <ref target="https://transkribus.eu/Transkribus/">https://transkribus.eu/Transkribus/</ref> [letzter Zugriff 20. August 2016].
-                    </bibl>
+                    </rs></bibl>
 </listBibl>
 </div>
 </back>
