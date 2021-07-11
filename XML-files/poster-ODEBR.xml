@@ -312,12 +312,12 @@
                         in: 
                         <hi rend="italic">Journal for Language Technology and Computational Linguistics</hi> 25 (1): 23–40.
                     </bibl>
-<bibl>
+<bibl><rs key="ANNIS" ana="#Bib.Ref #URL #Agent #Ver">
 <hi rend="bold">Krause, Thomas / Zeldes, Amir</hi> (2016): 
                         „ANNIS3. A new architecture for generic corpus query and visualization“, 
                         in: 
                         <hi rend="italic">Digital Scholarship in the Humanities</hi> 31 (1): 118–139 10.1093/llc/fqu057.
-                    </bibl>
+                    </rs></bibl>
 <bibl rend="No Spacing">
 <hi rend="bold">Kytö, Merja</hi> (2011): 
                         „Corpora and historical linguistics“, 

@@ -140,7 +140,7 @@
 <p>Abbildung 3: Netzwerk</p>
 <p>Lexikon und Taxonomien für Raumbegriffe</p>
 <p>Zur lexikalischen Erfassung von realweltlichen Toponymen greifen wir auf die Named-Entitiy-Recognition von 
-                <hi rend="italic">Weblicht</hi> (2012) zurück, deren Ergebnisse wir mit dem Rückgriff auf die frei zugänglichen Datenbanken 
+                <hi rend="italic"><rs key="WebLicht" ana="#Bib.Soft">Weblicht</rs></hi> (2012) zurück, deren Ergebnisse wir mit dem Rückgriff auf die frei zugänglichen Datenbanken 
                 <hi rend="italic">GeoNames </hi>(www.geonames.org) und 
                 <hi rend="italic">OpenStreetMap</hi> (www.openstreetmap.org, Datendownload über www.geofabrik.de) zu verfeinern trachten. Aufgrund des Problems der möglichen Ambiguität von Ortsnamen (Leidner / Liebermann 2011, Gregory / Hardie 2011) ist jedoch eine manuelle Nachbearbeitung nötig. Listen von unspezifischen Raumnomen („Berg“, „Bach“, etc.) erstellen wir (ebenfalls semi-automatisch) auf der Basis von 
                 <hi rend="italic">GermaNet</hi>.
@@ -298,11 +298,11 @@
                         <hi rend="italic">Postmodern Geographies: The Reassertion of Space in Critical Social Theory</hi>.
                         London / New York: Verso.
                     </bibl>
-<bibl>
+<bibl><rs key="WebLicht" ana="#Bib.Soft #URL">
 <hi rend="bold">WebLicht </hi>(2012): 
                         CLARIN-D/SfS-Uni. Tübingen 2012. <hi rend="italic">WebLicht: Web-Based Linguistic Chaining Tool</hi>. 
                         <ref target="https://weblicht.sfs.uni-tuebingen.de/">https://weblicht.sfs.uni-tuebingen.de/</ref> [letzter Zugriff 1. Dezember 2016]
-                    </bibl>
+                    </rs></bibl>
 <bibl>
 <hi rend="bold">Zoran, Gabriel</hi> (1984): 
                         „Towards a theory of space in narrative“, 
