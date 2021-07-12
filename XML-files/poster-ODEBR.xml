@@ -111,7 +111,7 @@
                     <ref n="2" target="poster-ODEBRftn2" type="note">2</ref>, und immer häufiger JSON-basierte Formate wie bei Vertan et al. (2016) Anwendung. Zusätzlich dazu können Korpora in mehreren Formaten vorliegen, vor allem wenn Korpora in einer Mehrebenenarchitektur (vgl. Romary und Ide 2004; Lüdeling 2012) entworfen und verschiedene Formate für unterschiedliche Abschnitte des Forschungsdatenzyklus (vgl. Rümpel 2011) genutzt werden.
                 </p>
 <p>Der innovative Charakter der Korpuserstellung zeigt sich neben den verwendeten Formaten auch in den Annotationsrichtlinien: Einige Formate wie TIGER-XML (Romary et al. 2015) und tcf (Heid et al. 2010) legen die Anzahl und die Bedeutung der Annotationen inklusive ihrer Tagsets fest, andere wie TEI-XML (TEI Consortium 2015) lassen Spielraum in der Serialisierung und in der Anwendung, in dem es beispielsweise mehrere valide Möglichkeiten gibt, Autoren in einem Dokument auszuweisen.
-                    <ref n="3" target="poster-ODEBRftn3" type="note">3</ref> Wieder andere Formate wie EXMARaLDA-XML (Schmid und Wörner 2009) oder PAULA-XML (Dipper 2005) geben keinerlei solcher Beschränkungen vor.
+                    <ref n="3" target="poster-ODEBRftn3" type="note">3</ref> Wieder andere Formate wie <rs key="EXMARaLDA" ana="#Bib.Ref #Agent">EXMARaLDA-XML (Schmid und Wörner 2009)</rs> oder PAULA-XML (Dipper 2005) geben keinerlei solcher Beschränkungen vor.
                 </p>
 <p>Insbesondere bei solchen Formaten mit größtmöglichem Spielraum für Interpretationen in Form von Annotationen zeigt sich die Vielfältigkeit der korpusbasierten Forschung. Ein typisches Annotationsbeispiel für historische Korpora sind Normalisierungen. Viele Korpora besitzen eigene Richtlinien für die Normalisierung, vgl. zum Beispiel für historisches Deutsch Jurish (2010), Bollmann et al. (2012); Odebrecht et al., (eingereicht). Auch für verschiedene Forschungsfragen wesentliche Kategorisierungen wie Wortarten gibt es annähernd für jedes historische Korpus eine eigene Lösung. So werden beispielsweise de-facto-Standards wie das STTS (Schiller et al. 1999) jeweils für ein Korpus angepasst, z.B. Dipper et al. (2013)
                     <ref n="4" target="poster-ODEBRftn4" type="note">4</ref> oder Fürstinnenkorresondenzkorpus
@@ -388,12 +388,12 @@
                         <hi rend="italic">Handbuch Forschungsdatenmanagement</hi>. 
                         Bad Honnef: Bock + Herchen 25–34.
                     </bibl>
-<bibl>
+<bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent">
 <hi rend="bold">Schmidt, Thomas / Wörner, Kai</hi> (2009): 
                         „EXMARaLDA. Creating, analysing and sharing spoken language corpora for pragmatic research”, 
                         in: 
                         <hi rend="italic">Pragmatics</hi> 19 (4): 565–582.
-                    </bibl>
+                     </rs></bibl>
 <bibl>
 <hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine / Thielen, Christine</hi> (1999): 
                         „Guidelines für das Tagging deutscher Textkorpora mit STTS“, 
